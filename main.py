@@ -29,6 +29,7 @@
 #print ("callback({'name':'abc'});")
 
 
-print ("Content-Type:text/javascript")
+#print ("Content-Type:text/javascript")
+print ("Content-Type:application/javascript")
 print ()
 print ("callback({\"name\":\"This is JSONP\"});")
