@@ -46,21 +46,13 @@
 # #print ('%s(%s)' % ('callback', json.dumps(data, ensure_ascii=False)) )
 # print ("callback({\"name\":\"This is JSONP\"});")
 
-from flask import Flask, jsonify, make_response, request
-import json
-
-api = Flask(__name__)
-
-@api.route('/user', methods=['POST'])
-def post_user_():
-  data = json.loads(request.data)
-  result = {
-    'name' : data.get('name'),
-    'age'  : data.get('age'),
-    'sex'  : data.get('sex')
-    }
-  return make_response(jsonify(result)) 
-
-
-if __name__ == '__main__': 
-  api.run(host = '0.0.0.0', port = 80) 
+from flask import Flask, jsonify
+ 
+app = Flask(__name__)
+ 
+@app.route('/')
+def hello_world():
+    return jsonify({'message': 'Hello world'})
+ 
+if __name__ == "__main__":
+    app.run(host='127.0.0.1', port=8888, debug=True)
