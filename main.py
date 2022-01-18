@@ -5,6 +5,12 @@ st.write("Hello!")
 import os
 st.write(os.getcwd())
 
+f = open('data.csv', 'r', encoding='UTF-8')
+data = f.read()
+st.write(data)
+f.close()
+
+
 #import urllib.request
 #with urllib.request.urlopen('https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_daily.csv') as u:
 #  st.write(u.info())
