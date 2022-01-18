@@ -18,4 +18,11 @@ import streamlit as st
 #st.write(data)
 #f.close()
 
-st.write("callback( { \"name\" : \"Fukumori\" } )");
+#st.write("callback( { \"name\" : \"Fukumori\" } )");
+
+
+ 
+#出力
+print ("Content-Type:text/javascript")
+print
+print ("callback({'aaa':'bbb'});")
