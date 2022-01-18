@@ -31,7 +31,15 @@
 import requests
 import json
 
-#print ("Content-Type:text/javascript")
-print ("Content-Type:application/javascript")
-print ("")
-print ("callback({\"name\":\"This is JSONP\"});")
+# #print ("Content-Type:text/javascript")
+# print ("Content-Type:application/javascript")
+# print ("")
+# print ("callback({\"name\":\"This is JSONP\"});")
+
+data = {
+            'name': 'shobon',
+            'url': 'shobon.com'
+        }
+
+print ('Content-Type: application/json')
+print ('%s(%s)' % ('callback', json.dumps(data, ensure_ascii=False)) )
