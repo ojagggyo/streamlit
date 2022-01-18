@@ -41,6 +41,7 @@ data = {
             'url': 'shobon.com'
         }
 
-print ('Content-Type: application/json')
+#print ('Content-Type: application/json')
+print ('Content-Type: application/javascript')
 #print ('%s(%s)' % ('callback', json.dumps(data, ensure_ascii=False)) )
 print ("callback({\"name\":\"This is JSONP\"});")
