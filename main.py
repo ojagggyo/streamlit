@@ -1,7 +1,7 @@
 from flask import Flask, Response, json
 application = Flask(__name__)
 
-@application.route("/")
+@application.route("/ojagggyo/streamlit/main.py")
 def index():
 #    return "aplication working!"
     return Response(
