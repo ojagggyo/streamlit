@@ -23,6 +23,7 @@
 
  
 #出力
-print ("Content-Type:text/javascript")
+#print ("Content-Type:text/javascript")
+print ("Content-type: application/x-javascript")
 print ()
 print ("callback({'name':'abc'});")
