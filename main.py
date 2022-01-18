@@ -4,7 +4,7 @@ import streamlit as st
 
 import urllib.request
 with urllib.request.urlopen('https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_daily.csv') as u:
- st.write(u.info())
+ #st.write(u.info())
  s = u.read()
  st.write(s)
  #st.write("<br>".join(s.decode('utf-8').split('\r\n')))
