@@ -1,4 +1,4 @@
-import streamlit as st
+#import streamlit as st
 # #st.write("Good morning")
 # #st.write("Hello!")
 
@@ -24,5 +24,5 @@ import streamlit as st
  
 #出力
 print ("Content-Type:text/javascript")
-print
+print ()
 print ("callback({'aaa':'bbb'});")
