@@ -28,8 +28,10 @@
 #print ()
 #print ("callback({'name':'abc'});")
 
+import requests
+import json
 
 #print ("Content-Type:text/javascript")
 print ("Content-Type:application/javascript")
-print ()
+print ("")
 print ("callback({\"name\":\"This is JSONP\"});")
