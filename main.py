@@ -24,6 +24,11 @@
  
 #出力
 #print ("Content-Type:text/javascript")
-print ("Content-type: application/x-javascript")
-print ()
-print ("callback({'name':'abc'});")
+#print ("Content-type: application/x-javascript")
+#print ()
+#print ("callback({'name':'abc'});")
+
+
+print ("Content-Type:text/javascript")
+print
+print ("callback({'name':'This is JSONP'});")
