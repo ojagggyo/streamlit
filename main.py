@@ -31,4 +31,4 @@
 
 print ("Content-Type:text/javascript")
 print ()
-print ("callback({'name':'This is JSONP'});")
+print ("callback({\"name\":\"This is JSONP\"});")
