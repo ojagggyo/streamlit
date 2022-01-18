@@ -25,4 +25,4 @@
 #出力
 print ("Content-Type:text/javascript")
 print ()
-print ("callback({'aaa':'bbb'});")
+print ("callback({'name':'abc'});")
