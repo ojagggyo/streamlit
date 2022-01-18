@@ -3,10 +3,11 @@ import streamlit as st
 #st.write("Hello!")
 
 import urllib.request
-with urllib.request.urlopen('https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_daily.csv') as u:
- #st.write(u.info())
- s = u.read()
- st.write(s)
+#with urllib.request.urlopen('https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_daily.csv') as u:
+with urllib.request.urlopen('https://api.upbit.com/v1/ticker?markets=KRW-STEEM') as u:
+    st.write(u.info())
+    s = u.read()
+    st.write(s)
  #st.write("<br>".join(s.decode('utf-8').split('\r\n')))
 
 
