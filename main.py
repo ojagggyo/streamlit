@@ -30,5 +30,5 @@
 
 
 print ("Content-Type:text/javascript")
-print
+print ()
 print ("callback({'name':'This is JSONP'});")
