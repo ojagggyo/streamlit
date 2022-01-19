@@ -13,8 +13,11 @@ st.area_chart(df1)
 st.area_chart(df2)
 
 df = pd.merge(df1, df2, on='日付')
-
+st.area_chart(df)
 
 st.dataframe(df1,width=400,height=400)
 st.dataframe(df2,width=400,height=400)
 st.dataframe(df,width=400,height=400)
+
+
+
