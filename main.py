@@ -9,11 +9,11 @@ for i, name in reversed(list(enumerate(df2["死亡者数"].to_list()))):
 	if i < 1 : break
 	df2["死亡者数"][i] = df2["死亡者数"][i] - df2["死亡者数"][i-1]   
 
-st.area_chart(df1)
-st.area_chart(df2)
+st.bar_chart(df1)
+st.bar_chart(df2)
 
 df = pd.merge(df1, df2, on='日付')
-st.area_chart(df)
+st.bar_chart(df)
 
 st.dataframe(df1,width=400,height=400)
 st.dataframe(df2,width=400,height=400)
