@@ -5,5 +5,4 @@ st.write('Streamlit is cool.')
 st.text('Streamlit is cool.')
 st.markdown('Streamlit is **_really_ cool**.')
 stc.html("<p style='color:red;'> Streamlit is Awesome")
-
 stc.html("<script>alert('Hello!');</script>")
