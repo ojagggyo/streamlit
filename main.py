@@ -24,4 +24,4 @@ st.area_chart(df1)
 
 st.area_chart(df2)
 
-st.line_chart(df)
+st.bar_chart(df)
