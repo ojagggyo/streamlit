@@ -7,4 +7,7 @@ df = pd.read_csv('https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_
 # 	'1列目':[1,2,3,4],
 # 	'2列目':[10,20,30,40],
 # })
-df
+
+#df
+
+st.dataframe(df)
