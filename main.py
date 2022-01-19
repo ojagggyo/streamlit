@@ -24,5 +24,7 @@ st.area_chart(df1)
 
 st.area_chart(df2)
 
+df['aaa'] = list(pd.Series(df.index,df.index-1).apply(lambda x,y: y - x))
+
 #st.bar_chart(df)
-st.dataframe(df.style.highlight_max(axis=0),width=400,height=400)
+st.dataframe(df,width=400,height=400)
