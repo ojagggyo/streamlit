@@ -168,6 +168,6 @@ s = "<html lang='en'>" +\
 "</html>"
 
 
-stc.html(s, 500)
+stc.html(s,1000, 1000,True)
 
 
