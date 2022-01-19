@@ -24,4 +24,5 @@ st.area_chart(df1)
 
 st.area_chart(df2)
 
-st.bar_chart(df.style.precision)
+#st.bar_chart(df)
+st.dataframe(df.style.highlight_max(axis=0),width=400,height=400)
