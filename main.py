@@ -1,9 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as stc
 
-s = "<!doctype html>" +\
-"<!doctype html>" +\
-"<html lang='en'>" +\
+s = "<html lang='en'>" +\
 "<head>" +\
 "<title></title>" +\
 "<meta charset='utf-8'>" +\
