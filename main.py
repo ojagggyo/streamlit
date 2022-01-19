@@ -12,4 +12,5 @@ df = pd.read_csv('https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_
 
 
 
-st.line_chart(df)
+#st.line_chart(df)
+st.area_chart(df)
