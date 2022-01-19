@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as stc
 
-s = "<html lang='en'>" +\
+s = """<html lang='en'>" +\
 "<head>" +\
 "<title></title>" +\
 "<meta charset='utf-8'>" +\
@@ -165,9 +165,9 @@ s = "<html lang='en'>" +\
 "<a href='https://toyokeizai.net/sp/visual/tko/covid19/csv/death_total.csv' " +\
 "target='_blank'>https://toyokeizai.net/sp/visual/tko/covid19/csv/death_total.csv</a>	" +\
 "</body>" +\
-"</html>"
+"</html>"""
 
 
-stc.html(s)
+stc.html(s, 500)
 
 
