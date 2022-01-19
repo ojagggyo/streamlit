@@ -7,7 +7,7 @@ df2 = pd.read_csv('https://toyokeizai.net/sp/visual/tko/covid19/csv/death_total.
 
 
 
-df = pd.merge(df1, df2, on='日付')
+df = pd.merge(df1, df2, on='日付',)
 
 df.to_csv("merged.csv", index=False)
 
@@ -20,4 +20,8 @@ df.to_csv("merged.csv", index=False)
 
 
 #st.line_chart(df)
+st.area_chart(df1)
+
+st.area_chart(df2)
+
 st.area_chart(df)
