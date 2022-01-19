@@ -18,6 +18,3 @@ st.bar_chart(df,use_container_width=True)
 st.dataframe(df1,width=400,height=400)
 st.dataframe(df2,width=400,height=400)
 st.dataframe(df,width=400,height=400)
-
-
-
