@@ -9,7 +9,7 @@ s = """
 <meta charset="utf-8">
 <link rel="icon" href="favicon_omicron.ico" id="favicon">
 <!--<link rel="icon" href="favicon.ico" id="favicon">-->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script><script>
+<script src="chart.js"></script><script>
 	
 let myChart;
 function clickBtn(days) {
