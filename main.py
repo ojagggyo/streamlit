@@ -6,4 +6,4 @@ df = pd.read_csv('https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_
 
 #st.dataframe(df.style.highlight_max(axis=0),width=400,height=400)
 
-st.tabls(df.style.highlight_max(axis=0))
+st.table(df.style.highlight_max(axis=0))
