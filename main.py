@@ -1,10 +1,10 @@
+import streamlit as st
 import numpy as np
 import pandas as pd
 
-data_02 = pd.read_csv('東京23区推移0409_2月.csv')
-data_03 = pd.read_csv('東京23区推移0409_3月.csv')
-data_04 = pd.read_csv('東京23区推移0409_4月.csv')
-
-data_all = pd.concat([data_02, data_03.iloc[:, 2:], data_04.iloc[:, 2:]], axis=1)
-
-data_all.head()
+#data_02 = pd.read_csv('https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_daily.csv')
+df = pd.DataFrame({
+	'1列目':{1,2,3,4},
+	'2列目':{10,20,30,40}
+})
+df
