@@ -12,6 +12,7 @@ df2 = pd.read_csv(\
 	, parse_dates=True\
 	, header=0\
 	, index_col=0)
+df2.drop(index=['ALL'])
 
 st.bar_chart(df)
 st.bar_chart(df2)
