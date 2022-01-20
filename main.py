@@ -8,11 +8,3 @@ df = pd.read_csv(\
 	, index_col=0)
 
 st.bar_chart(df)
-
-
-df2 = pd.read_csv(\
-	'https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_daily.csv'\
-	, parse_dates=False\
-	, index_col=0)
-
-st.bar_chart(df2)
