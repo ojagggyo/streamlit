@@ -15,4 +15,4 @@ df2 = pd.read_csv(\
 df2.drop(columns=["ALL"])
 
 st.bar_chart(df)
-st.bar_chart(df2)
+# st.bar_chart(df2)
