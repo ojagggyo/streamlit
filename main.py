@@ -6,6 +6,7 @@ df = pd.read_csv(\
 	'https://toyokeizai.net/sp/visual/tko/covid19/csv/pcr_positive_daily.csv'\
 	, parse_dates=True\
 	, index_col=0)
+df = df.rename(columns={'PCR 検査陽性者数(単日)':'陽性者数'})
 st.bar_chart(df)
 
 st.write("死亡者")
